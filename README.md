@@ -2,6 +2,7 @@
 
 `wait-for-url` is a bash script for waiting for a URL to become accessible.
 This can be used to wait for a HTTP server to start serving requests.
+The script uses `curl` internally, so it must be available.
 
 ## Usage
 
