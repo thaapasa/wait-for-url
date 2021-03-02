@@ -46,7 +46,7 @@ until is_available ; do
   if [ $RETRIES -lt 0 ]
   then
     echo "$HOST could not be reached - stopping"
-    exit -1
+    exit 255
   fi
   >&2 sleep 1
 done
